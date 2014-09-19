@@ -7,7 +7,7 @@ public class SerialDTO implements Serializable{
 	 */
 	private static final long serialVersionUID = 2L;
 	private String bookName;
-	private int bookOrder;
+	transient private int bookOrder;
 	private boolean bestSeller;
 	private long soldPerDay;
 	private String bookTypes = "IT";
