@@ -2,7 +2,7 @@
 public class TestProj {
 
 	public static void main(String[] args) {
-		int a = 7;
+		int a = 8;
 	}
 
 }
